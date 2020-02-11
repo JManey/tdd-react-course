@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App correctly 1`] = `
+<Fragment>
+  <h1>
+    Gift Giver
+  </h1>
+  <Button
+    active={false}
+    className="btn-add"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+    variant="primary"
+  >
+    Add Gift
+  </Button>
+</Fragment>
+`;
