@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders App correctly 1`] = `
+exports[`App renders App correctly 1`] = `
 <Fragment>
   <h1>
     Gift Giver
   </h1>
+  <div
+    className="gift-list"
+  />
   <Button
     active={false}
     className="btn-add"
