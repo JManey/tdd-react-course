@@ -38,10 +38,10 @@ describe("App", () => {
       beforeEach(() => {
         app.instance().removeGift(id);
       });
-    });
 
-    it("removes the gift from `state`", () => {
-      expect(app.state().gifts).toEqual([]);
+      it("removes the gift from `state`", () => {
+        expect(app.state().gifts).toEqual([]);
+      });
     });
   });
 });
